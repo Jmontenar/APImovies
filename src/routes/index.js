@@ -5,7 +5,7 @@ const directorsRouter = require('./directors.routes.js')
 const moviesRouter = require('./movies.routes.js')
 const router = express.Router();
 
-router.use("/genre", genreRouter )
+router.use("/genres", genreRouter )
 router.use("/actors", actorsRouter)
 router.use("/directors", directorsRouter)
 router.use("/movies", moviesRouter)

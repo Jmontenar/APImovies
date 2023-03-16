@@ -1,7 +1,7 @@
 const catchError = require('../utils/catchError');
 const Movies = require('../models/Movies');
-const Genre = require('../models/genre');
-const Actors = require('../models/actors');
+const Genre = require('../models/Genre');
+const Actors = require('../models/Actors');
 const Directors = require('../models/Directors')
 
 const getAll = catchError(async(req, res) => {
