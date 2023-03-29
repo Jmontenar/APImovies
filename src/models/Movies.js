@@ -7,7 +7,7 @@ const Movies = sequelize.define('movies', {
         allowNull: false
     },
     image: {
-        type: DataTypes.STRING,
+        type: DataTypes.TEXT,
         allowNull: false
     },
     synopsis: {
@@ -15,7 +15,7 @@ const Movies = sequelize.define('movies', {
         allowNull: false
     },
     releaseYear: {
-        type: DataTypes.DATE,
+        type: DataTypes.INTEGER,
         allowNull: false
     },
 });

@@ -1,8 +1,8 @@
 const express = require('express');
 const genreRouter = require('./genre.routes.js');
-const actorsRouter = require('./actors.routes.js')
-const directorsRouter = require('./directors.routes.js')
-const moviesRouter = require('./movies.routes.js')
+const moviesRouter = require('./movies.routes.js');
+const actorsRouter = require('./actors.routes.js');
+const directorsRouter = require('./directors.routes.js');
 const router = express.Router();
 
 router.use("/genres", genreRouter )
